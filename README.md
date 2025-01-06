@@ -69,3 +69,31 @@ This C program simulates a task scheduler that processes tasks with various comm
      ```
      QUIT
      ```
+**Input Commands**: You can either provide the commands interactively or in an `input.txt` file.
+Example input file:
+```
+SNT S1 1
+SNT S2 2
+SNT S3 3
+SNT S7 7
+DST
+DTIT
+DIMRCT
+
+S 1
+DST
+DTIT
+DIMRCT
+
+S 4
+DST
+DIMRCT
+DCTQ chk0.txt
+
+ECTS
+S 9
+DTIT
+DIMRCT
+DCTQ chk1.txt
+QUIT
+```
